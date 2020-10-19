@@ -157,7 +157,7 @@ function draw(){
 function spawncloud(){
    if (frameCount % 60 === 0) {
     var cloud = createSprite(width,height-300,40,10);
-    cloud.y = Math.round(random(100,ground.y - 75));
+    cloud.y = Math.round(random(100,ground.y - 110));
     cloud.addImage(cloudimage);
     cloud.scale = 0.66;
     cloud.velocityX = -3;
