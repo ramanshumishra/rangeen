@@ -329,7 +329,7 @@ function spawnbirds(){
       
       bird.y = Math.round(random(height/2 - 60, height/2 + 70 ))
       
-        bird.velocityX = -(12 + score/100);
+        bird.velocityX = -(16 + score/100);
       
       
       bird.lifetime = 550;
